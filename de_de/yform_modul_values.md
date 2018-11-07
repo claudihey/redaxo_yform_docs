@@ -514,7 +514,7 @@ definiert ein Feld, das nur serverseitig befüllt wird und nicht ausgegeben wird
 
 
 ##### Definition
-	Führt PHP-Code an der gewünschten Stelle des Eingabe-Formulars aus.
+	Führt PHP-Code an der gewünschten Stelle des Eingabe-Formulars aus. Programmierlogik wie z.B. if/else ist nicht erlaubt.
 	
 ##### Beispiel PHP
 	$yform->setValueField('php', array("php","PHP","<? echo 'hallo welt'; ?>"));
